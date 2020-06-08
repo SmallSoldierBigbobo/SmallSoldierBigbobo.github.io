@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-07T04:57:16.000Z</updated>
+  <updated>2020-06-08T03:03:06.847Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,214 +20,23 @@
     <title>Hello World</title>
     <link href="http://yoursite.com/2020/06/08/hello-world/"/>
     <id>http://yoursite.com/2020/06/08/hello-world/</id>
-    <published>2020-06-08T02:28:34.077Z</published>
-    <updated>2020-04-07T04:57:16.000Z</updated>
+    <published>2020-06-08T03:03:06.847Z</published>
+    <updated>2020-06-08T03:03:06.847Z</updated>
     
     <summary type="html">
     
-      
-      
-        
-        
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
-        
-      
+      Quick Start
     
     </summary>
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>LeetCode_Cpp/README</title>
-    <link href="http://yoursite.com/2020/06/08/LeetCode_Cpp/README/"/>
-    <id>http://yoursite.com/2020/06/08/LeetCode_Cpp/README/</id>
-    <published>2020-06-08T02:28:31.643Z</published>
-    <updated>2020-04-08T02:51:08.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Leetcode-solutions-and-summary&quot;&gt;&lt;a href=&quot;#Leetcode-solutions-and-summary&quot; class=&quot;headerlink&quot; title=&quot;Leetcode solutions and
-        
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>图像的读取与保存</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/001_%E2%95%90%E2%95%9D%E2%95%A7%C2%B1%E2%95%A1%E2%94%80%E2%95%A2%E2%94%B4%E2%95%9A%C3%AD%E2%95%99%CE%B4%E2%96%92%C3%BA%E2%94%A4%C2%B5/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/001_%E2%95%90%E2%95%9D%E2%95%A7%C2%B1%E2%95%A1%E2%94%80%E2%95%A2%E2%94%B4%E2%95%9A%C3%AD%E2%95%99%CE%B4%E2%96%92%C3%BA%E2%94%A4%C2%B5/</id>
-    <published>2020-04-19T16:00:00.000Z</published>
-    <updated>2020-04-20T12:11:46.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;图像的读取与保存&quot;&gt;&lt;a href=&quot;#图像的读取与保存&quot; class=&quot;headerlink&quot; title=&quot;图像的读取与保存&quot;&gt;&lt;/a&gt;图像的读取与保存&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
-        
-      
-    
-    </summary>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>图像的取反</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/002_%E2%95%90%E2%95%9D%E2%95%A7%C2%B1%E2%95%A1%E2%94%80%E2%95%9A%C3%AD%E2%95%96%E2%94%A4/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/002_%E2%95%90%E2%95%9D%E2%95%A7%C2%B1%E2%95%A1%E2%94%80%E2%95%9A%C3%AD%E2%95%96%E2%94%A4/</id>
-    <published>2020-04-19T16:00:00.000Z</published>
-    <updated>2020-04-20T12:49:10.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;图像的取反&quot;&gt;&lt;a href=&quot;#图像的取反&quot; class=&quot;headerlink&quot; title=&quot;图像的取反&quot;&gt;&lt;/a&gt;图像的取反&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
-        
-      
-    
-    </summary>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>掩膜操作</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/003_%E2%95%A4%E2%94%8C%E2%94%80%C3%B1%E2%96%93%E2%94%98%E2%95%AB%E2%89%88/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/003_%E2%95%A4%E2%94%8C%E2%94%80%C3%B1%E2%96%93%E2%94%98%E2%95%AB%E2%89%88/</id>
-    <published>2020-04-19T16:00:00.000Z</published>
-    <updated>2020-04-20T14:33:02.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;掩膜操作&quot;&gt;&lt;a href=&quot;#掩膜操作&quot; class=&quot;headerlink&quot; title=&quot;掩膜操作&quot;&gt;&lt;/a&gt;掩膜操作&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
-        
-      
-    
-    </summary>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mat对象</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/004_Mat%E2%95%A2%E2%95%98%E2%95%A7%E2%89%A4/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/004_Mat%E2%95%A2%E2%95%98%E2%95%A7%E2%89%A4/</id>
-    <published>2020-04-19T16:00:00.000Z</published>
-    <updated>2020-04-21T00:47:26.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;Mat对象&quot;&gt;&lt;a href=&quot;#Mat对象&quot; class=&quot;headerlink&quot; title=&quot;Mat对象&quot;&gt;&lt;/a&gt;Mat对象&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
-        
-      
-    
-    </summary>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>005_读取像素值</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/005_%E2%95%A2%E2%94%B4%E2%95%9A%C3%AD%E2%95%A7%C2%B1%E2%95%A6%E2%95%AA%E2%95%93%E2%95%A1/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/005_%E2%95%A2%E2%94%B4%E2%95%9A%C3%AD%E2%95%A7%C2%B1%E2%95%A6%E2%95%AA%E2%95%93%E2%95%A1/</id>
-    <published>2020-04-19T16:00:00.000Z</published>
-    <updated>2020-04-21T01:53:54.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;读取像素值&quot;&gt;&lt;a href=&quot;#读取像素值&quot; class=&quot;headerlink&quot; title=&quot;读取像素值&quot;&gt;&lt;/a&gt;读取像素值&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
-        
-      
-    
-    </summary>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>006_图像混合</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/006_%E2%95%90%E2%95%9D%E2%95%A7%C2%B1%E2%95%97%E2%88%9E%E2%95%91%E2%95%A7/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/006_%E2%95%90%E2%95%9D%E2%95%A7%C2%B1%E2%95%97%E2%88%9E%E2%95%91%E2%95%A7/</id>
-    <published>2020-04-19T16:00:00.000Z</published>
-    <updated>2020-04-21T02:16:24.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;图像混合&quot;&gt;&lt;a href=&quot;#图像混合&quot; class=&quot;headerlink&quot; title=&quot;图像混合&quot;&gt;&lt;/a&gt;图像混合&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
-        
-      
-    
-    </summary>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
     
   </entry>
   
   <entry>
     <title>绘制形状与添加文字</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/008_%E2%95%97%C2%B5%E2%95%93%E2%95%9E%E2%95%A8%E2%95%AC%E2%95%AB%E2%94%A4%E2%95%99%CE%B4%E2%95%A0%CF%86%E2%95%9D%E2%95%99%E2%95%AC%E2%94%80%E2%95%AB%E2%95%93/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/008_%E2%95%97%C2%B5%E2%95%93%E2%95%9E%E2%95%A8%E2%95%AC%E2%95%AB%E2%94%A4%E2%95%99%CE%B4%E2%95%A0%CF%86%E2%95%9D%E2%95%99%E2%95%AC%E2%94%80%E2%95%AB%E2%95%93/</id>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/008%E7%BB%98%E5%88%B6%E5%BD%A2%E7%8A%B6%E4%B8%8E%E6%B7%BB%E5%8A%A0%E6%96%87%E5%AD%97/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/008%E7%BB%98%E5%88%B6%E5%BD%A2%E7%8A%B6%E4%B8%8E%E6%B7%BB%E5%8A%A0%E6%96%87%E5%AD%97/</id>
     <published>2020-04-19T16:00:00.000Z</published>
     <updated>2020-04-21T07:51:00.000Z</updated>
     
@@ -252,9 +61,90 @@
   </entry>
   
   <entry>
+    <title>图像的取反</title>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/002%E5%9B%BE%E5%83%8F%E7%9A%84%E5%8F%96%E5%8F%8D/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/002%E5%9B%BE%E5%83%8F%E7%9A%84%E5%8F%96%E5%8F%8D/</id>
+    <published>2020-04-19T16:00:00.000Z</published>
+    <updated>2020-06-08T04:38:15.989Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;图像的取反&quot;&gt;&lt;a href=&quot;#图像的取反&quot; class=&quot;headerlink&quot; title=&quot;图像的取反&quot;&gt;&lt;/a&gt;图像的取反&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>掩膜操作</title>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/003%E6%8E%A9%E8%86%9C%E6%93%8D%E4%BD%9C/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/003%E6%8E%A9%E8%86%9C%E6%93%8D%E4%BD%9C/</id>
+    <published>2020-04-19T16:00:00.000Z</published>
+    <updated>2020-06-08T04:44:00.072Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;掩膜操作&quot;&gt;&lt;a href=&quot;#掩膜操作&quot; class=&quot;headerlink&quot; title=&quot;掩膜操作&quot;&gt;&lt;/a&gt;掩膜操作&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>006_图像混合</title>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/006%E5%9B%BE%E5%83%8F%E6%B7%B7%E5%90%88/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/006%E5%9B%BE%E5%83%8F%E6%B7%B7%E5%90%88/</id>
+    <published>2020-04-19T16:00:00.000Z</published>
+    <updated>2020-06-08T04:48:43.732Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;图像混合&quot;&gt;&lt;a href=&quot;#图像混合&quot; class=&quot;headerlink&quot; title=&quot;图像混合&quot;&gt;&lt;/a&gt;图像混合&lt;/h1&gt;&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
+    
+  </entry>
+  
+  <entry>
     <title>007_图像变换(对比度和亮度)</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/007_%E2%95%90%E2%95%9D%E2%95%A7%C2%B1%E2%96%92%CE%A3%E2%95%97%E2%95%97(%E2%95%A2%E2%95%98%E2%96%92%E2%95%9A%E2%95%A2%E2%95%9A%E2%95%91%E2%95%90%E2%94%B4%E2%94%B4%E2%95%A2%E2%95%9A)/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/007_%E2%95%90%E2%95%9D%E2%95%A7%C2%B1%E2%96%92%CE%A3%E2%95%97%E2%95%97(%E2%95%A2%E2%95%98%E2%96%92%E2%95%9A%E2%95%A2%E2%95%9A%E2%95%91%E2%95%90%E2%94%B4%E2%94%B4%E2%95%A2%E2%95%9A)/</id>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/007%E5%9B%BE%E5%83%8F%E5%8F%98%E6%8D%A2(%E5%AF%B9%E6%AF%94%E5%BA%A6%E5%92%8C%E4%BA%AE%E5%BA%A6)/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/007%E5%9B%BE%E5%83%8F%E5%8F%98%E6%8D%A2(%E5%AF%B9%E6%AF%94%E5%BA%A6%E5%92%8C%E4%BA%AE%E5%BA%A6)/</id>
     <published>2020-04-19T16:00:00.000Z</published>
     <updated>2020-04-21T02:57:16.000Z</updated>
     
@@ -279,9 +169,36 @@
   </entry>
   
   <entry>
+    <title>图像的读取与保存</title>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/001%E5%9B%BE%E5%83%8F%E7%9A%84%E8%AF%BB%E5%8F%96%E4%B8%8E%E4%BF%9D%E5%AD%98/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/001%E5%9B%BE%E5%83%8F%E7%9A%84%E8%AF%BB%E5%8F%96%E4%B8%8E%E4%BF%9D%E5%AD%98/</id>
+    <published>2020-04-19T16:00:00.000Z</published>
+    <updated>2020-06-08T04:37:31.366Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;图像的读取与保存&quot;&gt;&lt;a href=&quot;#图像的读取与保存&quot; class=&quot;headerlink&quot; title=&quot;图像的读取与保存&quot;&gt;&lt;/a&gt;图像的读取与保存&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
+    
+  </entry>
+  
+  <entry>
     <title>009_模糊与滤波</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/009_%E2%94%80%C3%BA%E2%95%91%C2%B2%E2%95%99%CE%B4%E2%94%AC%E2%95%A6%E2%96%93%C2%BF/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/009_%E2%94%80%C3%BA%E2%95%91%C2%B2%E2%95%99%CE%B4%E2%94%AC%E2%95%A6%E2%96%93%C2%BF/</id>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/009_%E6%A8%A1%E7%B3%8A%E4%B8%8E%E6%BB%A4%E6%B3%A2/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/009_%E6%A8%A1%E7%B3%8A%E4%B8%8E%E6%BB%A4%E6%B3%A2/</id>
     <published>2020-04-19T16:00:00.000Z</published>
     <updated>2020-04-21T08:18:48.000Z</updated>
     
@@ -306,36 +223,9 @@
   </entry>
   
   <entry>
-    <title>012_上采样_下采样_高斯不同</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/012_%E2%95%94%E2%95%A7%E2%96%93%E2%95%94%E2%95%A4%E2%88%99_%E2%95%A7%E2%94%AC%E2%96%93%E2%95%94%E2%95%A4%E2%88%99_%E2%95%95%E2%96%80%E2%95%A6%E2%95%A3%E2%96%93%E2%95%97%E2%95%90%C2%BC/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/012_%E2%95%94%E2%95%A7%E2%96%93%E2%95%94%E2%95%A4%E2%88%99_%E2%95%A7%E2%94%AC%E2%96%93%E2%95%94%E2%95%A4%E2%88%99_%E2%95%95%E2%96%80%E2%95%A6%E2%95%A3%E2%96%93%E2%95%97%E2%95%90%C2%BC/</id>
-    <published>2020-04-19T16:00:00.000Z</published>
-    <updated>2020-04-21T14:47:42.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;012-上采样-下采样-高斯不同&quot;&gt;&lt;a href=&quot;#012-上采样-下采样-高斯不同&quot; class=&quot;headerlink&quot; title=&quot;012_上采样_下采样_高斯不同&quot;&gt;&lt;/a&gt;012_上采样_下采样_高斯不同&lt;/h1&gt;&lt;h2
-        
-      
-    
-    </summary>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
-    
-    
-      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
-    
-  </entry>
-  
-  <entry>
     <title>010_形态学操作</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/010_%E2%95%A8%E2%95%AC%E2%95%A0%C2%BC%E2%95%A4%C2%BA%E2%96%93%E2%94%98%E2%95%AB%E2%89%88/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/010_%E2%95%A8%E2%95%AC%E2%95%A0%C2%BC%E2%95%A4%C2%BA%E2%96%93%E2%94%98%E2%95%AB%E2%89%88/</id>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/010_%E5%BD%A2%E6%80%81%E5%AD%A6%E6%93%8D%E4%BD%9C(morphology%20operators)/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/010_%E5%BD%A2%E6%80%81%E5%AD%A6%E6%93%8D%E4%BD%9C(morphology%20operators)/</id>
     <published>2020-04-19T16:00:00.000Z</published>
     <updated>2020-04-21T12:51:54.000Z</updated>
     
@@ -360,9 +250,90 @@
   </entry>
   
   <entry>
+    <title>Mat对象</title>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/004_%20Mat%E5%AF%B9%E8%B1%A1/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/004_%20Mat%E5%AF%B9%E8%B1%A1/</id>
+    <published>2020-04-19T16:00:00.000Z</published>
+    <updated>2020-06-08T04:50:13.306Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Mat对象&quot;&gt;&lt;a href=&quot;#Mat对象&quot; class=&quot;headerlink&quot; title=&quot;Mat对象&quot;&gt;&lt;/a&gt;Mat对象&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>005_读取像素值</title>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/005%E8%AF%BB%E5%8F%96%E5%83%8F%E7%B4%A0%E5%80%BC/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/005%E8%AF%BB%E5%8F%96%E5%83%8F%E7%B4%A0%E5%80%BC/</id>
+    <published>2020-04-19T16:00:00.000Z</published>
+    <updated>2020-06-08T04:41:36.463Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;读取像素值&quot;&gt;&lt;a href=&quot;#读取像素值&quot; class=&quot;headerlink&quot; title=&quot;读取像素值&quot;&gt;&lt;/a&gt;读取像素值&lt;/h1&gt;&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td
+        
+      
+    
+    </summary>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>012_上采样_下采样_高斯不同</title>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/012_%E4%B8%8A%E9%87%87%E6%A0%B7_%E4%B8%8B%E9%87%87%E6%A0%B7_%E9%AB%98%E6%96%AF%E4%B8%8D%E5%90%8C/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/012_%E4%B8%8A%E9%87%87%E6%A0%B7_%E4%B8%8B%E9%87%87%E6%A0%B7_%E9%AB%98%E6%96%AF%E4%B8%8D%E5%90%8C/</id>
+    <published>2020-04-19T16:00:00.000Z</published>
+    <updated>2020-04-21T14:47:42.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;012-上采样-下采样-高斯不同&quot;&gt;&lt;a href=&quot;#012-上采样-下采样-高斯不同&quot; class=&quot;headerlink&quot; title=&quot;012_上采样_下采样_高斯不同&quot;&gt;&lt;/a&gt;012_上采样_下采样_高斯不同&lt;/h1&gt;&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/categories/OpenCV/"/>
+    
+    
+      <category term="OpenCV" scheme="http://yoursite.com/tags/OpenCV/"/>
+    
+  </entry>
+  
+  <entry>
     <title>011_形态学操作应用_提取水平与垂直线</title>
-    <link href="http://yoursite.com/2020/04/20/OpenCV/011_%E2%95%A8%E2%95%AC%E2%95%A0%C2%BC%E2%95%A4%C2%BA%E2%96%93%E2%94%98%E2%95%AB%E2%89%88%E2%95%99%C2%AA%E2%95%99%E2%94%9C_%E2%95%A0%C3%9F%E2%95%9A%C3%AD%E2%95%A6%C2%AB%E2%95%9E%E2%95%9C%E2%95%99%CE%B4%E2%94%A4%E2%95%A3%E2%95%93%E2%96%92%E2%95%A7%E2%96%80/"/>
-    <id>http://yoursite.com/2020/04/20/OpenCV/011_%E2%95%A8%E2%95%AC%E2%95%A0%C2%BC%E2%95%A4%C2%BA%E2%96%93%E2%94%98%E2%95%AB%E2%89%88%E2%95%99%C2%AA%E2%95%99%E2%94%9C_%E2%95%A0%C3%9F%E2%95%9A%C3%AD%E2%95%A6%C2%AB%E2%95%9E%E2%95%9C%E2%95%99%CE%B4%E2%94%A4%E2%95%A3%E2%95%93%E2%96%92%E2%95%A7%E2%96%80/</id>
+    <link href="http://yoursite.com/2020/04/20/OpenCV/011_%E5%BD%A2%E6%80%81%E5%AD%A6%E6%93%8D%E4%BD%9C%E5%BA%94%E7%94%A8_%E6%8F%90%E5%8F%96%E6%B0%B4%E5%B9%B3%E4%B8%8E%E5%9E%82%E7%9B%B4%E7%BA%BF/"/>
+    <id>http://yoursite.com/2020/04/20/OpenCV/011_%E5%BD%A2%E6%80%81%E5%AD%A6%E6%93%8D%E4%BD%9C%E5%BA%94%E7%94%A8_%E6%8F%90%E5%8F%96%E6%B0%B4%E5%B9%B3%E4%B8%8E%E5%9E%82%E7%9B%B4%E7%BA%BF/</id>
     <published>2020-04-19T16:00:00.000Z</published>
     <updated>2020-04-21T13:45:48.000Z</updated>
     
@@ -429,39 +400,6 @@
   </entry>
   
   <entry>
-    <title>3. Longest Substring Without Repeating Characters</title>
-    <link href="http://yoursite.com/2020/04/07/LeetCode_Cpp/0003._Longest_Substring_Without_Repeating_Characters/"/>
-    <id>http://yoursite.com/2020/04/07/LeetCode_Cpp/0003._Longest_Substring_Without_Repeating_Characters/</id>
-    <published>2020-04-06T16:00:00.000Z</published>
-    <updated>2020-04-08T06:43:28.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;3-Longest-Substring-Without-Repeating-Characters&quot;&gt;&lt;a href=&quot;#3-Longest-Substring-Without-Repeating-Characters&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="C++" scheme="http://yoursite.com/categories/C/"/>
-    
-      <category term="LeetCode" scheme="http://yoursite.com/categories/C/LeetCode/"/>
-    
-    
-      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
-    
-      <category term="LeetCode" scheme="http://yoursite.com/tags/LeetCode/"/>
-    
-      <category term="Medium" scheme="http://yoursite.com/tags/Medium/"/>
-    
-  </entry>
-  
-  <entry>
     <title>2. Add Two Numbers</title>
     <link href="http://yoursite.com/2020/04/07/LeetCode_Cpp/0002._Add_Two_Numbers/"/>
     <id>http://yoursite.com/2020/04/07/LeetCode_Cpp/0002._Add_Two_Numbers/</id>
@@ -495,11 +433,11 @@
   </entry>
   
   <entry>
-    <title>6. ZigZag Conversion</title>
-    <link href="http://yoursite.com/2020/04/07/LeetCode_Cpp/0006._ZigZag%20_Conversion/"/>
-    <id>http://yoursite.com/2020/04/07/LeetCode_Cpp/0006._ZigZag%20_Conversion/</id>
+    <title>3. Longest Substring Without Repeating Characters</title>
+    <link href="http://yoursite.com/2020/04/07/LeetCode_Cpp/0003._Longest_Substring_Without_Repeating_Characters/"/>
+    <id>http://yoursite.com/2020/04/07/LeetCode_Cpp/0003._Longest_Substring_Without_Repeating_Characters/</id>
     <published>2020-04-06T16:00:00.000Z</published>
-    <updated>2020-04-08T06:54:22.000Z</updated>
+    <updated>2020-04-08T06:43:28.000Z</updated>
     
     <summary type="html">
     
@@ -507,7 +445,7 @@
       
         
         
-          &lt;h1 id=&quot;6-ZigZag-Conversion&quot;&gt;&lt;a href=&quot;#6-ZigZag-Conversion&quot; class=&quot;headerlink&quot; title=&quot;6. ZigZag Conversion&quot;&gt;&lt;/a&gt;6. ZigZag
+          &lt;h1 id=&quot;3-Longest-Substring-Without-Repeating-Characters&quot;&gt;&lt;a href=&quot;#3-Longest-Substring-Without-Repeating-Characters&quot; class=&quot;headerlink&quot;
         
       
     
@@ -557,6 +495,70 @@
       <category term="LeetCode" scheme="http://yoursite.com/tags/LeetCode/"/>
     
       <category term="Hard" scheme="http://yoursite.com/tags/Hard/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>7. Reverse Integer</title>
+    <link href="http://yoursite.com/2020/04/07/LeetCode_Cpp/0007._Reverse_Integer/"/>
+    <id>http://yoursite.com/2020/04/07/LeetCode_Cpp/0007._Reverse_Integer/</id>
+    <published>2020-04-06T16:00:00.000Z</published>
+    <updated>2020-04-08T06:54:18.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;7-Reverse-Integer&quot;&gt;&lt;a href=&quot;#7-Reverse-Integer&quot; class=&quot;headerlink&quot; title=&quot;7. Reverse Integer&quot;&gt;&lt;/a&gt;7. Reverse
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="http://yoursite.com/categories/C/"/>
+    
+      <category term="LeetCode" scheme="http://yoursite.com/categories/C/LeetCode/"/>
+    
+    
+      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+    
+      <category term="LeetCode" scheme="http://yoursite.com/tags/LeetCode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>5. Longest Palindromic Substring</title>
+    <link href="http://yoursite.com/2020/04/07/LeetCode_Cpp/0005._Longest_Palindromic_Substring/"/>
+    <id>http://yoursite.com/2020/04/07/LeetCode_Cpp/0005._Longest_Palindromic_Substring/</id>
+    <published>2020-04-06T16:00:00.000Z</published>
+    <updated>2020-04-08T06:54:24.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;5-Longest-Palindromic-Substring&quot;&gt;&lt;a href=&quot;#5-Longest-Palindromic-Substring&quot; class=&quot;headerlink&quot; title=&quot;5. Longest Palindromic
+        
+      
+    
+    </summary>
+    
+    
+      <category term="C++" scheme="http://yoursite.com/categories/C/"/>
+    
+      <category term="LeetCode" scheme="http://yoursite.com/categories/C/LeetCode/"/>
+    
+    
+      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
+    
+      <category term="LeetCode" scheme="http://yoursite.com/tags/LeetCode/"/>
+    
+      <category term="Medium" scheme="http://yoursite.com/tags/Medium/"/>
     
   </entry>
   
