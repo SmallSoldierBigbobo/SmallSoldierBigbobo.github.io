@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="OpenCV," />
+
+
+
+
+  
+
+
+  <link rel="alternate" href="/atom.xml" title="鸭脖，麻辣的" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="绘制形状与添加文字123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990#include&lt;opencv2&#x2F;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="绘制形状与添加文字">
+<meta property="og:url" content="http://yoursite.com/2020/04/20/OpenCV/008_%E2%95%97%C2%B5%E2%95%93%E2%95%9E%E2%95%A8%E2%95%AC%E2%95%AB%E2%94%A4%E2%95%99%CE%B4%E2%95%A0%CF%86%E2%95%9D%E2%95%99%E2%95%AC%E2%94%80%E2%95%AB%E2%95%93/index.html">
+<meta property="og:site_name" content="鸭脖，麻辣的">
+<meta property="og:description" content="绘制形状与添加文字123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990#include&lt;opencv2&#x2F;">
+<meta property="article:published_time" content="2020-04-19T16:00:00.000Z">
+<meta property="article:modified_time" content="2020-04-21T07:51:00.000Z">
+<meta property="article:author" content="在沪的中原汉子">
+<meta property="article:tag" content="OpenCV">
+<meta name="twitter:card" content="summary">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2020/04/20/OpenCV/008_╗µ╓╞╨╬╫┤╙δ╠φ╝╙╬─╫╓/"/>
+
+
+
+
+
+  <title>绘制形状与添加文字 | 鸭脖，麻辣的</title>
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">鸭脖，麻辣的</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">华东师范大学 | 统计学 | 计算机视觉er</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/%20" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/20/OpenCV/008_%E2%95%97%C2%B5%E2%95%93%E2%95%9E%E2%95%A8%E2%95%AC%E2%95%AB%E2%94%A4%E2%95%99%CE%B4%E2%95%A0%CF%86%E2%95%9D%E2%95%99%E2%95%AC%E2%94%80%E2%95%AB%E2%95%93/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="在沪的中原汉子">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/header2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="鸭脖，麻辣的">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">绘制形状与添加文字</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2020-04-20T00:00:00+08:00">
+                2020-04-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/OpenCV/" itemprop="url" rel="index">
+                    <span itemprop="name">OpenCV</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="绘制形状与添加文字"><a href="#绘制形状与添加文字" class="headerlink" title="绘制形状与添加文字"></a>绘制形状与添加文字</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;opencv2/opencv.hpp&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;math.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> cv;</span><br><span class="line"><span class="keyword">using</span> <span class="built_in">std</span>::<span class="built_in">cout</span>;</span><br><span class="line"><span class="keyword">using</span> <span class="built_in">std</span>::<span class="built_in">endl</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test010</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">RandomLine</span><span class="params">(Mat src1)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	test010();</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">test010</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="comment">// 读取图像1</span></span><br><span class="line">	Mat src = imread(<span class="string">"C:\\Users\\yaboyuanyabo\\Desktop\\temp\\test2.jpg"</span>);</span><br><span class="line">	<span class="comment">// 判断是否读取成功</span></span><br><span class="line">	<span class="keyword">if</span> (src.empty()) <span class="comment">// or if( !src.data)</span></span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Can not load image... \n"</span>;</span><br><span class="line">		<span class="keyword">return</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">else</span></span><br><span class="line">		<span class="built_in">std</span>::<span class="built_in">cout</span> &lt;&lt; <span class="string">"Load successfully... \n"</span>;</span><br><span class="line"></span><br><span class="line">	imshow(<span class="string">"src"</span>, src);</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 添加线</span></span><br><span class="line">	Point p1 = Point(<span class="number">20</span>, <span class="number">0</span>);</span><br><span class="line">	Point p2;</span><br><span class="line">	p2.x = <span class="number">20</span>;</span><br><span class="line">	p2.y = <span class="number">30</span>;</span><br><span class="line">	Scalar colorR = Scalar(<span class="number">0</span>, <span class="number">0</span>, <span class="number">255</span>);</span><br><span class="line">	line(src, p1, p2, colorR);</span><br><span class="line"></span><br><span class="line">	<span class="comment">//添加矩形</span></span><br><span class="line">	Rect rect = Rect(<span class="number">30</span>, <span class="number">50</span>, <span class="number">100</span>, <span class="number">100</span>);</span><br><span class="line">	Scalar colorB = Scalar(<span class="number">255</span>, <span class="number">0</span>, <span class="number">0</span>);</span><br><span class="line">	rectangle(src, rect, colorB);</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 添加椭圆</span></span><br><span class="line">	Scalar colorG = Scalar(<span class="number">0</span>, <span class="number">255</span>, <span class="number">0</span>);</span><br><span class="line">	ellipse(src, Point(src.cols / <span class="number">2</span>, src.rows / <span class="number">2</span>), Size(src.cols / <span class="number">4</span>, src.rows / <span class="number">4</span>), <span class="number">45</span>, <span class="number">0</span>, <span class="number">360</span>, colorG, <span class="number">2</span>, LINE_8);</span><br><span class="line">	</span><br><span class="line">	<span class="comment">// 添加圆</span></span><br><span class="line">	circle(src, Point(<span class="number">303</span>, <span class="number">558</span>), <span class="number">30</span>, colorG);</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 添加多边形</span></span><br><span class="line">	Point pts[<span class="number">1</span>][<span class="number">5</span>];</span><br><span class="line">	pts[<span class="number">0</span>][<span class="number">0</span>] = Point(<span class="number">100</span>, <span class="number">100</span>);</span><br><span class="line">	pts[<span class="number">0</span>][<span class="number">1</span>] = Point(<span class="number">100</span>, <span class="number">200</span>);</span><br><span class="line">	pts[<span class="number">0</span>][<span class="number">2</span>] = Point(<span class="number">200</span>, <span class="number">200</span>);</span><br><span class="line">	pts[<span class="number">0</span>][<span class="number">3</span>] = Point(<span class="number">200</span>, <span class="number">100</span>);</span><br><span class="line">	pts[<span class="number">0</span>][<span class="number">4</span>] = Point(<span class="number">100</span>, <span class="number">100</span>);</span><br><span class="line">	<span class="keyword">const</span> Point* ppts[] = &#123; pts[<span class="number">0</span>] &#125;;</span><br><span class="line">	<span class="keyword">int</span> npt[] = &#123; <span class="number">5</span> &#125;;</span><br><span class="line">	</span><br><span class="line">	fillPoly(src, ppts, npt, <span class="number">1</span>, colorB);</span><br><span class="line"></span><br><span class="line">	<span class="comment">// 添加文字</span></span><br><span class="line">	putText(src, <span class="string">"Hello OpenCV"</span>, Point(<span class="number">150</span>, <span class="number">500</span>), CV_FONT_BLACK, <span class="number">0.8</span>, colorG);</span><br><span class="line"></span><br><span class="line">	imshow(<span class="string">"src_line"</span>, src);</span><br><span class="line"></span><br><span class="line">	RandomLine(src);</span><br><span class="line"></span><br><span class="line">	waitKey(<span class="number">0</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">RandomLine</span><span class="params">(Mat src1)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="function">RNG <span class="title">rng</span><span class="params">(<span class="number">12345</span>)</span></span>;</span><br><span class="line">	Point p1, p2;</span><br><span class="line">	<span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; <span class="number">5000</span>;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		p1.x = rng.uniform(<span class="number">0</span>, src1.cols);</span><br><span class="line">		p1.y = rng.uniform(<span class="number">0</span>, src1.rows);</span><br><span class="line">		p2.x = rng.uniform(<span class="number">0</span>, src1.cols);</span><br><span class="line">		p2.y = rng.uniform(<span class="number">0</span>, src1.rows);</span><br><span class="line">		Scalar color_temp = Scalar(rng.uniform(<span class="number">0</span>, <span class="number">255</span>), rng.uniform(<span class="number">0</span>, <span class="number">255</span>), rng.uniform(<span class="number">0</span>, <span class="number">255</span>));</span><br><span class="line">		<span class="keyword">if</span> (waitKey(<span class="number">50</span>) &gt; <span class="number">0</span>) <span class="keyword">break</span>;</span><br><span class="line">		line(src1, p1, p2, color_temp);</span><br><span class="line">		imshow(<span class="string">"Random"</span>, src1);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/OpenCV/" rel="tag"># OpenCV</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2020/04/20/OpenCV/007_%E2%95%90%E2%95%9D%E2%95%A7%C2%B1%E2%96%92%CE%A3%E2%95%97%E2%95%97(%E2%95%A2%E2%95%98%E2%96%92%E2%95%9A%E2%95%A2%E2%95%9A%E2%95%91%E2%95%90%E2%94%B4%E2%94%B4%E2%95%A2%E2%95%9A)/" rel="next" title="007_图像变换(对比度和亮度)">
+                <i class="fa fa-chevron-left"></i> 007_图像变换(对比度和亮度)
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2020/04/20/OpenCV/006_%E2%95%90%E2%95%9D%E2%95%A7%C2%B1%E2%95%97%E2%88%9E%E2%95%91%E2%95%A7/" rel="prev" title="006_图像混合">
+                006_图像混合 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/header2.jpg"
+                alt="在沪的中原汉子" />
+            
+              <p class="site-author-name" itemprop="name">在沪的中原汉子</p>
+              <p class="site-description motion-element" itemprop="description">yaboyuanyabo@163.com</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives">
+              
+                  <span class="site-state-item-count">168</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">5</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#绘制形状与添加文字"><span class="nav-number">1.</span> <span class="nav-text">绘制形状与添加文字</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">在沪的中原汉子</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+<div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv" style='display:none'>
+    本站访问总量 <span id="busuanzi_value_site_pv"></span> 次
+    <span class="post-meta-divider">|</span>
+</span>
+<span id="busuanzi_container_site_uv" style='display:none'>
+    有<span id="busuanzi_value_site_uv"></span>人看过我的博客啦
+</span>
+</div>
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
