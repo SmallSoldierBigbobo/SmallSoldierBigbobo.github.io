@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/resume/index.html</loc>
+    
+    <lastmod>2020-06-08T08:21:39.406Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/about/index.html</loc>
+    
+    <lastmod>2020-06-08T08:21:39.406Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2020/04/20/OpenCV/004_%20Mat%E5%AF%B9%E8%B1%A1/</loc>
     
     <lastmod>2020-06-08T04:50:13.306Z</lastmod>
@@ -61,13 +75,6 @@
     <loc>http://yoursite.com/categories/index.html</loc>
     
     <lastmod>2020-06-08T02:41:56.576Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite.com/about/index.html</loc>
-    
-    <lastmod>2020-06-08T02:40:20.620Z</lastmod>
     
   </url>
   
